@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             hotel item = (hotel) getItem(position);
             TextView tv_address = (TextView) itemlayout.findViewById(R.id.tv_address);
             tv_address.setText(item.getAddress());
-            TextView tv_address = (TextView) itemlayout.findViewById(R.id.tv_name);
+            TextView tv_name = (TextView) itemlayout.findViewById(R.id.tv_name);
             tv_address.setText(item.getName());
             TextView tv_web = (TextView) itemlayout.findViewById(R.id.tv_web);
             tv_web.setText(item.getWeb());
